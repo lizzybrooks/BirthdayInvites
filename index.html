@@ -16,69 +16,41 @@
   <meta property="og:image" content="https://lizzybrooks.github.io/43birthday/birthdayInvite.png" />
 
 </head>
-<!--    <body>
-    <main>
-      <img src="birthdayInvite.png" alt="Birthday Invite" class="centered-image">
-    </main>
-    
-    <div class="shadow-dance-container">
-      <h1 class="shadow-dance-text">BIRTHDAY</h1>
-    </div>
-  </body> -->
-
 <body>
   <div class="container">
-    <div class="text-column">
-     
-      <!-- <p class="event-details">
-        Announcing... Noor's 6th Birthday Party<br>
-      </p> -->
-      
-    </div>
-
     <main>
       <img src="NoorBdayInvite6.png" alt="Birthday Invite" class="centered-image">
     </main>
 
-<div class="container">
-  <div class="text-column">
-
-    <p class="event-details">
+    <div class="text-column">
+      <p class="event-details">
         Join us for Noor's 6th birthday party!<br>
         Friday, August 21, 5pm until bedtime<br>
         424 Funston Ave, San Francisco<br>
         We'll have food, drinks and a mystery<br>
       </p>
-
-  </div>
+    </div>
 
     <div class="text-column">
       <h2>Can you come? </h2>
-    
-
-        <form id="rsvpForm">
-          <input type="text" id="name" placeholder="who's coming? write your name(s)" required>
-        
-          <input type="text" id="message" placeholder="add a message">
-        
-          <select id="attending" required>
-        
+      <form id="rsvpForm">
+        <input type="text" id="name" placeholder="who's coming? write your name(s)" required>
+        <input type="text" id="message" placeholder="add a message">
+        <select id="attending" required>
           <option value="">will you attend?</option>
           <option value="yes">Yup!</option>
           <option value="no">Nope</option>
         </select>
         <button type="submit">Submit RSVP</button>
       </form>
-<br>
-             <h2>Guest List</h2>
 
+      <h2>Guest List</h2>
       <div id="rsvpList"></div>
     </div>
   </div>
 
   <!-- Firebase Scripts -->
   <script type="module" src="sketch.js"></script>
-
 </body>
 
 </html>
