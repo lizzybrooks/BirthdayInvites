@@ -216,6 +216,11 @@ h2 {
     padding: 1.5rem;
     /* Add padding to text columns on mobile */
   }
+
+    .event-glance,
+    .event-story {
+      padding: 1.5rem 1.85rem;
+    }
 }
 
 /* ---------- Desktop layout (769px and wider) ---------- */
