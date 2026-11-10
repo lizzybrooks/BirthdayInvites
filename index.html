@@ -5,46 +5,49 @@
   <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.11/addons/p5.sound.min.js"></script>
 
-
-
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- iMessage & WhatsApp Preview -->
-  <meta property="og:title" content="Noor's Birthday Celebration" />
-  <meta property="og:description" content="the case of the missing cake" />
+  <meta property="og:title" content="Jomy's Birthday Celebration" />
+  <meta property="og:description" content="Jomy's Independent Birthday Hike" />
   <meta property="og:image" content="https://lizzybrooks.github.io/43birthday/birthdayInvite.png" />
-
 </head>
+
 <body>
   <div class="container">
+
+    <!-- Left column on computers -->
+    <div class="event-glance">
+      <div class="glance-row"><span class="glance-label">What</span> Jomy's 10 Birthday Party</div>
+      <div class="glance-row"><span class="glance-label">When</span> Saturday, December 5, 11am</div>
+      <div class="glance-row"><span class="glance-label">Where</span> Lincoln Park Steps<br>California &amp; 32nd Street
+      </div>
+      <div class="glance-row"><span class="glance-label">Wait, What?</span> Kids will hike the Lands End trail to Sutro
+        Baths</div>
+    </div>
+
+    <!-- Center column on computers (top of the page on phones) -->
     <main>
       <img src="JomyBirthdayHike.jpeg" alt="Birthday Invite" class="centered-image">
     </main>
 
-  <div class="text-column">
-    <div class="event-glance">
-      <div class="glance-row"><span class="glance-label">What</span> Jomy's 10 Birthday Party</div>
-      <div class="glance-row"><span class="glance-label">When</span> Saturday, December 5, 11am</div>
-      <div class="glance-row"><span class="glance-label">Where</span> Lincoln Park Steps <br> California & 32nd Street
-      </div>
-      <div class="glance-row"><span class="glance-label">Wait, What? </span> Kids will hike the Lands End trail to Sutro Baths</div>
-    </div>
-  
+    <!-- Right column on computers -->
     <p class="event-story">
-      Join Jomy for a kids-only birthday hike on the Land's End Trail. We will meet at 11am at the Lincoln Park Steps. 
-      Then the kids will set off on a 1.8 mile hike to Lands End, along a beautiful hiking trail. 
-      Lizzy will walk behind the kids as a "sweeper" in case they have trouble. 
-      Abbas and Noor will meet the group at the trailhead at Sutro Baths with hot chocolate, cake and hot food. 
-      We know that a kids-only hike is not the right choice for every family. If your child is not ready to hike the trail independently, feel free to meet at Sutro Baths for the finale at 12:30. 
-      If it's raining, we'll adjust the plans. 
+      Join Jomy for a kids-only birthday hike on the Land's End Trail. We will meet at 11am at the Lincoln Park Steps.
+      Then the kids will set off on a 1.8 mile hike to Lands End, along a beautiful hiking trail.
+      Lizzy will walk behind the kids as a "sweeper" in case they have trouble.
+      Abbas and Noor will meet the group at the trailhead at Sutro Baths with hot chocolate, cake and hot food.
+      We know that a kids-only hike is not the right choice for every family. If your child is not ready to hike the
+      trail independently, feel free to meet at Sutro Baths for the finale at 12:30.
+      If it's raining, we'll adjust the plans.
       Gifts are welcome but not required or expected.
       Thanks for celebrating Jomy!
     </p>
-  </div>
 
-    <div class="text-column">
-      <h2>Can you come? </h2>
+    <!-- Centered below the three columns on computers -->
+    <div class="text-column rsvp-section">
+      <h2>Can you come?</h2>
       <form id="rsvpForm">
         <input type="text" id="name" placeholder="who's coming? write your name(s)" required>
         <input type="text" id="message" placeholder="add a message">
@@ -59,6 +62,7 @@
       <h2>Guest List</h2>
       <div id="rsvpList"></div>
     </div>
+
   </div>
 
   <!-- Firebase Scripts -->
